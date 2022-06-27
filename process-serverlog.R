@@ -1,5 +1,5 @@
 #Replace this with the path of your server log
-setwd("/mnt/Novo volume/Codes/IEEE LAT AM/Test-Results/2/server")
+setwd("./server")
 
 data <- read.table('serverlog.txt', header = F)
 data <- data - data$V1[1]
